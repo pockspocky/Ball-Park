@@ -4570,8 +4570,6 @@ MonoBehaviour:
   baseExplosionForce: 250
   explosionRadius: 1
   upwardsModifier: 0
-  laserPrefab: {fileID: 0}
-  laserDuration: 0.2
 --- !u!64 &841925363
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4872,7 +4870,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 905167390}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: 198118e3140d84f258dbcdac2a735955, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
