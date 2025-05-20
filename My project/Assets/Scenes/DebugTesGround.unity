@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 2148228}
   - component: {fileID: 2148227}
   - component: {fileID: 2148226}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 49097454}
   - component: {fileID: 49097453}
   - component: {fileID: 49097452}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,7 +678,7 @@ GameObject:
   - component: {fileID: 262371349}
   - component: {fileID: 262371348}
   - component: {fileID: 262371347}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 315522972}
   - component: {fileID: 315522971}
   - component: {fileID: 315522970}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1030,7 +1030,7 @@ GameObject:
   - component: {fileID: 343275626}
   - component: {fileID: 343275625}
   - component: {fileID: 343275624}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,7 +1389,7 @@ GameObject:
   - component: {fileID: 433641235}
   - component: {fileID: 433641234}
   - component: {fileID: 433641233}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1565,7 +1565,7 @@ GameObject:
   - component: {fileID: 441185774}
   - component: {fileID: 441185773}
   - component: {fileID: 441185772}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1793,7 +1793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 447071533}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Victim Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1986,7 +1986,7 @@ MonoBehaviour:
   maxSpeed: 20
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 4294967295
   groundCheckDistance: 0.7
   slowDownFactor: 0.98
   dashSpeed: 2
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   dashKey: 32
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 127
+    m_Bits: 119
   cameraScript: {fileID: 963194231}
   ballMovements: {fileID: 517644676}
   ballMesh: {fileID: 517644673}
@@ -2030,12 +2030,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedThreshold: 30
-  explosionForce: 200
+  explosionForce: 100
   explosionRadius: 10
   upwardsModifier: 0
   explosiveLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 8
   cooldownDuration: 2
   overdriveVFXPrefab: {fileID: 3327616972326966029, guid: 21db6045a21ac4dad9586bb3b0494031, type: 3}
   vfxController: {fileID: 1605156822}
@@ -2062,7 +2062,7 @@ GameObject:
   - component: {fileID: 537338494}
   - component: {fileID: 537338493}
   - component: {fileID: 537338492}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 565485141}
   - component: {fileID: 565485140}
   - component: {fileID: 565485139}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2414,7 +2414,7 @@ GameObject:
   - component: {fileID: 602404437}
   - component: {fileID: 602404436}
   - component: {fileID: 602404435}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2698,7 @@ GameObject:
   - component: {fileID: 648327790}
   - component: {fileID: 648327789}
   - component: {fileID: 648327788}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2874,7 +2874,7 @@ GameObject:
   - component: {fileID: 672380276}
   - component: {fileID: 672380275}
   - component: {fileID: 672380274}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3050,7 +3050,7 @@ GameObject:
   - component: {fileID: 681368733}
   - component: {fileID: 681368732}
   - component: {fileID: 681368731}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3226,7 +3226,7 @@ GameObject:
   - component: {fileID: 693329521}
   - component: {fileID: 693329520}
   - component: {fileID: 693329519}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3523,7 +3523,7 @@ GameObject:
   - component: {fileID: 720913689}
   - component: {fileID: 720913688}
   - component: {fileID: 720913687}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3704,7 +3704,7 @@ GameObject:
   - component: {fileID: 823080551}
   - component: {fileID: 823080550}
   - component: {fileID: 823080549}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3875,7 +3875,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 828362146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ramp1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3913,7 +3913,7 @@ GameObject:
   - component: {fileID: 830388898}
   - component: {fileID: 830388897}
   - component: {fileID: 830388896}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4089,7 +4089,7 @@ GameObject:
   - component: {fileID: 832462581}
   - component: {fileID: 832462580}
   - component: {fileID: 832462579}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4265,7 +4265,7 @@ GameObject:
   - component: {fileID: 839099098}
   - component: {fileID: 839099097}
   - component: {fileID: 839099096}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4606,7 +4606,7 @@ GameObject:
   - component: {fileID: 867831416}
   - component: {fileID: 867831415}
   - component: {fileID: 867831414}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4777,7 +4777,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 893853251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Landscape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5367,7 +5367,7 @@ GameObject:
   - component: {fileID: 1152958957}
   - component: {fileID: 1152958956}
   - component: {fileID: 1152958955}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5543,7 +5543,7 @@ GameObject:
   - component: {fileID: 1156774844}
   - component: {fileID: 1156774843}
   - component: {fileID: 1156774842}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5719,7 +5719,7 @@ GameObject:
   - component: {fileID: 1167405840}
   - component: {fileID: 1167405839}
   - component: {fileID: 1167405838}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5895,7 +5895,7 @@ GameObject:
   - component: {fileID: 1191976068}
   - component: {fileID: 1191976067}
   - component: {fileID: 1191976066}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6071,7 +6071,7 @@ GameObject:
   - component: {fileID: 1234287935}
   - component: {fileID: 1234287934}
   - component: {fileID: 1234287939}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6242,7 +6242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1240447484}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6280,7 +6280,7 @@ GameObject:
   - component: {fileID: 1249456380}
   - component: {fileID: 1249456379}
   - component: {fileID: 1249456378}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6456,7 +6456,7 @@ GameObject:
   - component: {fileID: 1284101826}
   - component: {fileID: 1284101825}
   - component: {fileID: 1284101824}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6740,7 +6740,7 @@ GameObject:
   - component: {fileID: 1318499043}
   - component: {fileID: 1318499042}
   - component: {fileID: 1318499041}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6911,7 +6911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1411145056}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Victims
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6950,7 +6950,7 @@ GameObject:
   - component: {fileID: 1430615765}
   - component: {fileID: 1430615764}
   - component: {fileID: 1430615763}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7126,7 +7126,7 @@ GameObject:
   - component: {fileID: 1496860842}
   - component: {fileID: 1496860841}
   - component: {fileID: 1496860840}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7302,7 +7302,7 @@ GameObject:
   - component: {fileID: 1539648731}
   - component: {fileID: 1539648730}
   - component: {fileID: 1539648729}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7478,7 +7478,7 @@ GameObject:
   - component: {fileID: 1551470035}
   - component: {fileID: 1551470034}
   - component: {fileID: 1551470033}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7774,7 +7774,7 @@ GameObject:
   - component: {fileID: 1566428216}
   - component: {fileID: 1566428215}
   - component: {fileID: 1566428214}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8053,7 +8053,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1574956076}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Victim Group (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8150,7 +8150,7 @@ GameObject:
   - component: {fileID: 1638390030}
   - component: {fileID: 1638390029}
   - component: {fileID: 1638390028}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8326,7 +8326,7 @@ GameObject:
   - component: {fileID: 1640519044}
   - component: {fileID: 1640519043}
   - component: {fileID: 1640519042}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8502,7 +8502,7 @@ GameObject:
   - component: {fileID: 1661759401}
   - component: {fileID: 1661759400}
   - component: {fileID: 1661759399}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8673,7 +8673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1697340464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Victim Group (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8724,7 +8724,7 @@ GameObject:
   - component: {fileID: 1713689573}
   - component: {fileID: 1713689572}
   - component: {fileID: 1713689571}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9008,7 +9008,7 @@ GameObject:
   - component: {fileID: 1738863367}
   - component: {fileID: 1738863366}
   - component: {fileID: 1738863365}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9184,7 +9184,7 @@ GameObject:
   - component: {fileID: 1742063903}
   - component: {fileID: 1742063902}
   - component: {fileID: 1742063901}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9360,7 +9360,7 @@ GameObject:
   - component: {fileID: 1903448188}
   - component: {fileID: 1903448187}
   - component: {fileID: 1903448186}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9536,7 +9536,7 @@ GameObject:
   - component: {fileID: 1904285927}
   - component: {fileID: 1904285926}
   - component: {fileID: 1904285925}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9707,7 +9707,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1954401665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -9748,7 +9748,7 @@ GameObject:
   - component: {fileID: 1954692781}
   - component: {fileID: 1954692780}
   - component: {fileID: 1954692779}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9924,7 +9924,7 @@ GameObject:
   - component: {fileID: 2007178705}
   - component: {fileID: 2007178704}
   - component: {fileID: 2007178703}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10100,7 +10100,7 @@ GameObject:
   - component: {fileID: 2007846729}
   - component: {fileID: 2007846728}
   - component: {fileID: 2007846727}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10276,7 +10276,7 @@ GameObject:
   - component: {fileID: 2038713542}
   - component: {fileID: 2038713541}
   - component: {fileID: 2038713540}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Victim (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
